@@ -65,12 +65,12 @@ class Video implements  AcoesVideo {
 
     @Override
     public void play() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.reproduzindo=true;
     }
 
     @Override
     public void pause() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        this.reproduzindo=false;
     }
     
     

@@ -3,9 +3,8 @@ package projetoyotube;
 
 
 public interface AcoesVideo {
-    public int views();
-    public int curtidas();
-    public String play();
-    public boolean reproduzir ();
+    public void like();
+    public  void play();
+    public void pause ();
     
 }
