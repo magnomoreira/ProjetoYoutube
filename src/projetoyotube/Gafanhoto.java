@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package projetoyotube;
 
-/**
- *
- * @author magno
- */
+
 public class Gafanhoto extends Pessoa{
     
     private String login;
@@ -38,7 +31,7 @@ public class Gafanhoto extends Pessoa{
 
     @Override
     public String toString() {
-        return "Gafanhoto{" + "login=" + login + ", totAssistindo=" + totAssistindo + '}';
+        return "Gafanhoto{" + super.toString()+ "\n login=" + login + ", totAssistindo=" + totAssistindo + '}';
     }
     
     

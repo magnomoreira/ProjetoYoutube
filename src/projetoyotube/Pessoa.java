@@ -49,6 +49,12 @@ public abstract  class Pessoa {
     public void setExeperiencia(float exeperiencia) {
         this.exeperiencia = exeperiencia;
     }
+
+    @Override
+    public String toString() {
+        return "Pessoa{" + "nome=" + nome + ", idade=" + idade + ", sexo=" + sexo + ", exeperiencia=" + exeperiencia + '}';
+    }
+    
     
     
 }
